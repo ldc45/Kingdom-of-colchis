@@ -1,0 +1,21 @@
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.pictures img {
+  width: 250px;
+  height: 350px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p:hover {
+  color: #b4975a;
+  text-decoration: underline #00471b;
+}

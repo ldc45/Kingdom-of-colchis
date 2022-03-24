@@ -1,0 +1,22 @@
+#contact {
+  margin-left: 30px;
+}
+form {
+  margin-top: 30px;
+}
+
+textarea {
+  padding: 10px;
+  width: 350px;
+  height: 250px;
+  overflow: auto;
+  margin-top: 30px;
+}
+
+input {
+  margin: 8px 0px;
+}
+
+#submit {
+  margin-left: 310px;
+}
