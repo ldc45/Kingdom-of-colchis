@@ -4,15 +4,20 @@
 @import url(https://fonts.googleapis.com/css?family=Bigshot + One);
 
 :root {
-  font-size: 18px;
+  font-family: "Bigshot One", serif, sans-serif;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: solid 1px gray;
-  margin-bottom: 10px;
+  border-bottom: solid 1px #00471b;
+  margin: 10px 10px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
 }
 
 a {
@@ -28,31 +33,9 @@ a:hover {
   text-decoration: underline #00471b;
 }
 
-img {
-  width: 120px;
-  height: 120px;
-}
-
 ul {
   display: flex;
   list-style-type: none;
-}
-
-h2 {
-  font-family: "Bigshot One", serif, sans-serif;
-  color: #00471b;
-  text-decoration: underline black;
-}
-
-#hero {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.welcome {
-  background: url("assets/georgia.jpg");
-  background-size: cover;
 }
 
 h1 {
@@ -62,26 +45,62 @@ h1 {
   padding: 15px;
 }
 
+h2 {
+  font-family: "Bigshot One", serif, sans-serif;
+  color: #00471b;
+  text-decoration: underline black;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+}
+.welcome {
+  background: url("assets/georgia.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 p {
   text-align: justify;
 }
 
+.about {
+  margin: 0px 20px;
+}
+
 #event {
   display: flex;
-  flex-direction: column;
+  margin: 20px 20px;
 }
 
-article {
-  display: flex;
-  align-items: center;
+#event p {
+  padding: 0pc 20px;
 }
 
-article img {
+#event,
+.about {
+  text-align: center;
+}
+
+.soon {
+  flex: 1;
+}
+
+.javelin img {
   width: 200px;
+  height: 200px;
+}
+
+.news {
+  margin-left: 10px;
+  flex: 1;
+  border-left: solid 1px #b4975a;
+}
+.news img {
+  width: 250px;
   height: 250px;
-  margin-right: 15px;
 }
 
 footer {
-  padding: 0px 50%;
+  text-align: center;
 }
