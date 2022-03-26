@@ -1,10 +1,10 @@
 /* Feuille CSS */
 
 /* Importation d'une police via google */
-@import url(https://fonts.googleapis.com/css?family=Bigshot + One);
+@import url(https://fonts.googleapis.com/css?family=Hurricane);
 
 :root {
-  font-family: "Bigshot One", serif, sans-serif;
+  font-family: "Roboto", serif, sans-serif;
 }
 
 header {
@@ -22,8 +22,8 @@ img {
 
 a {
   margin: 20px;
-  font-family: "Bigshot One", serif, sans-serif;
-  font-size: 21px;
+  font-family: "Hurricane", serif, sans-serif;
+  font-size: 28px;
   text-decoration: none;
   color: black;
 }
@@ -92,7 +92,7 @@ p {
 }
 
 .news {
-  margin-left: 10px;
+  margin-left: 2px;
   flex: 1;
   border-left: solid 1px #b4975a;
 }
@@ -103,4 +103,12 @@ p {
 
 footer {
   text-align: center;
+  height: 80px;
+  border-top: solid 1px #00471b;
+}
+
+footer img {
+  height: 70px;
+  width: 70px;
+  margin-top: 5px;
 }

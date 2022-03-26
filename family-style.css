@@ -19,3 +19,15 @@ p:hover {
   color: #b4975a;
   text-decoration: underline #00471b;
 }
+
+footer {
+  text-align: center;
+  height: 80px;
+  border-top: solid 1px #00471b;
+}
+
+footer img {
+  height: 70px;
+  width: 70px;
+  margin-top: 5px;
+}
