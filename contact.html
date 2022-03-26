@@ -6,6 +6,7 @@
     <title>Contact</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="contact-style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <!-- Navigation Section-->
@@ -25,38 +26,43 @@
       <h2>
         Fill in the form below to contact the Royal Kingdom !
       </h2>
-      <form id="contactForm">
-        <label for="firstname">Firstname :</label><br />
-        <input
-          required
-          placeholder="Your Firstname"
-          type="text"
-          id="firstname"
-          name="fname"
-        /><br />
-        <label for="lastname">Lastname :</label><br />
-        <input
-          required
-          placeholder="Your Lastname"
-          type="text"
-          id="lastname"
-          name="lname"
-        /><br />
-        <label for="email">Email :</label><br />
-        <input
-          required
-          placeholder="Your email"
-          type="email"
-          id="email"
-          name="email"
-        /><br />
-        <textarea required placeholder="Dear King..." name="Message"></textarea>
-        <br /><br />
-        <input id="submit" type="submit" value="Submit" />
-      </form>
+      <div class="contact-body">
+        <form id="contactForm">
+          <label for="firstname">Firstname :</label><br />
+          <input
+            required
+            placeholder="Your Firstname"
+            type="text"
+            id="firstname"
+            name="fname"
+          /><br />
+          <label for="lastname">Lastname :</label><br />
+          <input
+            required
+            placeholder="Your Lastname"
+            type="text"
+            id="lastname"
+            name="lname"
+          /><br />
+          <label for="email">Email :</label><br />
+          <input
+            required
+            placeholder="Your email"
+            type="email"
+            id="email"
+            name="email"
+          /><br />
+          <textarea
+            required
+            placeholder="Dear King..."
+            name="Message"
+          ></textarea>
+          <br /><br />
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+        <img src="assets/cat-typing.gif" alt="chat" />
+      </div>
     </section>
-
     <!-- Connect the Javascript file -->
-    <script src="script.js"></script>
   </body>
 </html>
