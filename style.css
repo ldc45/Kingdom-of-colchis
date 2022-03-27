@@ -1,12 +1,9 @@
 /* Feuille CSS */
-
 /* Importation d'une police via google */
-@import url(https://fonts.googleapis.com/css?family=Hurricane);
-
+@import url(https://fonts.googleapis.com/css?family=Hurricane|Roboto);
 :root {
   font-family: "Roboto", serif, sans-serif;
 }
-
 header {
   display: flex;
   align-items: center;
@@ -15,7 +12,7 @@ header {
   margin: 10px 10px;
 }
 
-img {
+header img {
   width: 120px;
   height: 120px;
 }
@@ -60,12 +57,12 @@ h2 {
   background-position: center;
 }
 
-p {
-  text-align: justify;
-}
-
 .about {
   margin: 0px 20px;
+}
+
+p {
+  text-align: justify;
 }
 
 #event {
@@ -74,7 +71,7 @@ p {
 }
 
 #event p {
-  padding: 0pc 20px;
+  padding: 0px 20px;
 }
 
 #event,
@@ -111,4 +108,27 @@ footer img {
   height: 70px;
   width: 70px;
   margin-top: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 25px;
+  }
+  header img {
+    margin-left: 40px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  #event {
+    display: flex;
+    flex-direction: column;
+  }
+  .news {
+    border-style: none;
+  }
 }

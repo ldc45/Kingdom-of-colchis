@@ -1,5 +1,4 @@
-const message =
-  "Thank you for submitting your request. The crew will respond shortly.";
+const message = "Thank you for ! The kingdom will respond shortly.";
 
 document
   .getElementById("contactForm")
