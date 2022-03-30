@@ -1,4 +1,4 @@
-const message = "Thank you for ! The kingdom will respond shortly.";
+const message = "Thank you ! The kingdom will respond shortly.";
 
 document
   .getElementById("contactForm")
