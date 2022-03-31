@@ -4,6 +4,7 @@
 
 .contact-body {
   display: flex;
+  flex-direction: column;
 }
 
 form {
@@ -30,7 +31,7 @@ input[type="submit"] {
 }
 
 div img {
-  margin: auto;
+  margin: 30px 125px;
   height: 300px;
   width: 300px;
 }
@@ -55,17 +56,59 @@ div img {
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 25px;
+  }
+  header img {
+    margin-left: 40px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  textarea {
+    height: 250px;
+    width: 210px;
+  }
+  input[type="submit"] {
+    margin: 0px 100px;
+  }
+  .contact-body {
+    display: flex;
+    flex-direction: column;
+  }
+
   div img {
-    margin: 200px 400px;
+    margin: 30px 125px;
+    height: 150px;
+    width: 150px;
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 1024px) and (min-width: 769) {
+  div img {
+    margin: 200px 200px;
+  }
+  .contact-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1025px) {
   footer {
     margin-top: 250px;
   }
   div img {
-    margin: 200px 800px;
+    margin: 200px 350px;
+  }
+  .contact-body {
+    display: flex;
+    flex-direction: row;
   }
 }
