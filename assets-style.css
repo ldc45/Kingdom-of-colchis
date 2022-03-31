@@ -1,5 +1,6 @@
 #assets {
   text-align: center;
+  margin-top: 80px;
 }
 table {
   border: solid 3px black;
@@ -28,6 +29,8 @@ tbody tr:nth-child(odd) {
 footer {
   margin-top: 200px;
 }
+
+
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
   header {
