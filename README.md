@@ -25,9 +25,7 @@ Voici les wireframes et la structure du site. Pour créer le site du roi, je dev
 
   <li>Inclure une police Google pour embellir la page (Guide recommandé)</li>
   </ul> 
-  <p align="center">
-  <img src="https://user-images.githubusercontent.com/98770184/204142620-5e701961-2ada-4a36-b51c-685ffd1e634d.jpg" alt="couronne">
-  </p>
+
  
 
 ## Visiter mon site ici : https://ldc45.github.io/Kingdom-of-colchis/
@@ -36,3 +34,6 @@ Voici les wireframes et la structure du site. Pour créer le site du roi, je dev
 
 ![image](https://user-images.githubusercontent.com/98770184/207169846-55dfea0e-cad3-4ff9-aeb6-fb2d48338705.png)
 
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/98770184/204142620-5e701961-2ada-4a36-b51c-685ffd1e634d.jpg" alt="couronne">
+  </p>
